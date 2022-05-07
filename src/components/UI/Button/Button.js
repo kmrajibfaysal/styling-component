@@ -10,6 +10,12 @@ const Button = styled.button`
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
   cursor: pointer;
 
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: auto;
+  }
+
   &:focus {
     outline: none;
   }
